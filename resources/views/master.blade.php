@@ -22,7 +22,11 @@
 <style>
 .custom-login{
     height: 500px;
-    padding-top: 100px;
+    padding-top: 200px;
+}
+.custom-admin{
+    height: 500px;
+    padding-top: 200px;
 }
 img.slider-img{
         height: 400px !important

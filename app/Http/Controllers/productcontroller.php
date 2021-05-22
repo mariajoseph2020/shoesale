@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\product;
 use App\Models\cart;
 use App\Models\order;
+use App\Models\Admin;
+
 use Session;
 use Illuminate\Support\Facades\DB;
 class productcontroller extends Controller

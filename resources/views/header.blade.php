@@ -44,11 +44,28 @@ if(Session::has('user'))
             </ul>
           </li>
           @else
+          <ul class="nav navbar-nav navbar-right">
+          <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Admin
+         <span class="caret"></span></button>
+         <ul class="dropdown-menu">
+         <li><a href="/admin">Login</a></li>
+         <li><a href="/adminregister">Regsiter</a></li>
+         </ul>
+         </ul>
+         </div>
+         <ul class="nav navbar-nav navbar-right">
+         <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">User
+         <span class="caret"></span></button>
+         <ul class="dropdown-menu">
           <li><a href="/login">Login</a></li>
           <li><a href="/register">Register</a></li>
           @endif
-
         </ul>
+        </ul>
+        </div>
+        </div>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
