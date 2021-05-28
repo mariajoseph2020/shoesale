@@ -3,7 +3,6 @@
 <div class="container custom-adminregister">
 <div class="row">
 <div class=" col-sm-4 col-sm-offset-4">
-
 <form action="adminregister" method="post">
 @csrf
 <h4><centre><b>ADMIN</h4>

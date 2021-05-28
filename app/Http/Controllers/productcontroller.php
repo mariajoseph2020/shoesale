@@ -17,19 +17,19 @@ class productcontroller extends Controller
     function index()
     {   
        
-       $data= product::all();
-
+       $data=product::all();
+        dd($data);
        return view('product',['products'=>$data]);
         
     }
     function detail($id)
     {
-        $data =product::find($id);
+        $data=product::find($id);
         return view('detail',['product'=>$data]);
     }
     function search(Request $req)
     {
-        $data= product::where('name', 'like', '%'.$req->input('query').'%')
+        $data=product::where('name', 'like', '%'.$req->input('query').'%')
         ->get();
         return view('search',['products'=>$data]);
     }
