@@ -18,7 +18,7 @@ class productcontroller extends Controller
     {   
        
        $data=product::all();
-        dd($data);
+        //dd($data);
        return view('product',['products'=>$data]);
         
     }
