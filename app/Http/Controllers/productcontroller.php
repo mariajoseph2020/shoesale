@@ -70,7 +70,7 @@ class productcontroller extends Controller
                 cart::destroy($id);
                 return redirect('cartlist');
              }
-             function orderNow()
+         function orderNow()
             {
              $userId=Session::get('user')['id'];
              $total= $products= DB::table('cart')
