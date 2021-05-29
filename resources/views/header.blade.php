@@ -6,7 +6,7 @@ if(Session::has('user'))
   $total= productcontroller::cartitem();
 }
 ?>
-<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
