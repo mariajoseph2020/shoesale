@@ -6,7 +6,7 @@ if(Session::has('user'))
   $total= productcontroller::cartitem();
 }
 ?>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -26,7 +26,7 @@ if(Session::has('user'))
           <li><a href="/myorders">Orders</a></li>
           
         </ul>
-        <form action="/search" class="navbar-form navbar-right">
+        <form action="/search" class="navbar-form navbar-left">
           <div class="form-group">
             <input type="text" name="query" class="form-control search-box" placeholder="Search">
           </div>
