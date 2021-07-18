@@ -7,17 +7,20 @@
 @csrf
 <div class="form-group">
   <label for="exampleInputEmail1" class="form-label">Username</label>
-    <input type="text" name="name" class="form-control" id="exampleInputUsername1" placeholder="Username">
+  <span class="text-danger">@error('rname'){{$message}} @enderror  </span>
+    <input type="text" name="name" class="form-control" id="exampleInputUsername1"  placeholder="Username" required>
     </div>
   <div class="form-group">
   <label for="exampleInputEmail1" class="form-label"></label>Email</label>
-    <input type="text" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  <span class="text-danger">@error('rname'){{$message}} @enderror  </span>
+    <input type="text" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
     </div>
   <div class="form-group">
     <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <span class="text-danger">@error('rname'){{$message}} @enderror  </span>
+    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
   </div>
-  
+
   <button type="submit" class="btn btn-primary">Register</button>
 </form>
 <style>

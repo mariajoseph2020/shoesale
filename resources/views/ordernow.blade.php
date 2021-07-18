@@ -3,7 +3,7 @@
 <div class="custom-product">
      <div class="col-sm-10">
         <table class="table">
-         
+
             <tbody>
               <tr>
                 <td>Amount</td>
@@ -40,4 +40,13 @@
           </div>
      </div>
 </div>
-@endsection 
+@endsection
+<style>
+   body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi7eGBAQ43QQclwBecwgsCtRQ5edVM9qdL_w&usqp=CAU');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 10vh;
+}
+       </style>

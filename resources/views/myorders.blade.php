@@ -4,6 +4,7 @@
      <div class="col-sm-10">
         <div class="trending-wrapper">
             <h4>My Orders </h4>
+            <button id="hide" class="btn btn-primary" onclick="window.print()">Print</button>
             @foreach($orders as $item)
             <div class=" row searched-item cart-list-devider">
              <div class="col-sm-3">
@@ -11,6 +12,7 @@
                     <img class="trending-image" src="{{$item->gallery}}">
                   </a>
              </div>
+
              <div class="col-sm-4">
                     <div class="">
                       <h2>Name : {{$item->name}}</h2>
@@ -21,11 +23,21 @@
 
                     </div>
              </div>
-            
+
             </div>
             @endforeach
           </div>
 
      </div>
 </div>
-@endsection 
+<style>
+   body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi7eGBAQ43QQclwBecwgsCtRQ5edVM9qdL_w&usqp=CAU');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 10vh;
+}
+       </style>
+
+@endsection
