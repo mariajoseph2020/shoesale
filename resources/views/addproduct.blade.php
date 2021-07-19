@@ -8,7 +8,7 @@
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <div class="bg-image"
-  
+
 <div class="container">
 <div class="row">
 <div class="col col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3 ">
@@ -22,9 +22,9 @@
  <table class="table table-dark table-borderless "id="ip3" >
 
 
-<tr><td></td><td><h2><b>Add Product</b></h2> </td></tr>
+<tr><td></td><td><h2><b>ADD PRODUCT</b></h2> </td></tr>
 
- 
+
  <tr>
      <td><center> Name</center></td>
      <td><input name="Name"   type="text" class="form-control"  placeholder=" Name" required>
@@ -32,7 +32,7 @@
  </tr>
  <tr>
      <td><center>size</center></td>
-     <td><input name="size"   type="text" class="form-control"  placeholder="size" required>
+     <td><input name="size" type="number" min=1 max=100  default value hidden=1 class="form-control"  placeholder="size" required>
      </td>
  </tr>
  <tr>
@@ -48,7 +48,7 @@
  </tr>
  <tr>
      <td><center>Price</center></td>
-     <td><input name="Price"   type="text" class="form-control" placeholder=" Price" required>
+     <td><input name="Price"  type="number" class="form-control" placeholder=" Price" required>
 
      </td>
  </tr>
@@ -60,11 +60,11 @@
  </tr>
  <tr>
      <td><center>Quantity</center></td>
-     <td><input name="Quantity"   type="text" class="form-control" placeholder=" Quantity" required>
+     <td><input type="number"  min=1 max=100 default value hidden=1  input name="Quantity"    class="form-control" placeholder=" Quantity" required>
 
      </td>
  </tr>
- 
+
 
 
  <tr>
@@ -74,11 +74,11 @@
 <tr>
     <td></td>
     <td><input type="submit" value="add" /> </td>
-    
+
  </tr>
- 
- 
- 
+
+
+
  </form>
  </table>
  </div>
@@ -98,7 +98,7 @@
   height: 10vh;
 }
 </style>
-          
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </head>
 </html>

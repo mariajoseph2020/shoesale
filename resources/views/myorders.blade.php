@@ -32,7 +32,7 @@
 </div>
 <style>
    body {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi7eGBAQ43QQclwBecwgsCtRQ5edVM9qdL_w&usqp=CAU');
+  background-image: url('https://www.stockvault.net/data/2019/08/27/268794/preview16.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

@@ -9,7 +9,7 @@
 </head>
  <div class="container" style="margin-left: 300px;">
         <div class="row">
-            <h3 class="display-4 text-danger">ALL PRODUCT DETAILS</h3>
+        <h1><centre><div class="p-3 mb-2 text-black">ALL PRODUCT DETAILS</div></centre></h1>
             <div class="col-md-12">
 <table class="table  table-striped table-responsive table-right">
 <thead class="thead-dark">
@@ -27,7 +27,7 @@
 <tbody>
  @foreach($data as $d)
  <tr>
- 
+
   <td>{{$d->name}}</td>
  <td>{{$d->size}}</td>
  <td>{{$d->color}}</td>
@@ -36,10 +36,10 @@
  <td>{{$d->brand}}</td>
  <td>{{$d->quantity}}</td>
  <td><img src={{$d->gallery}}/> </td>
- 
- <td><a href={{"delete/".$d['id']}}>Delete</a></td>
- <td><a href={{"edit/".$d['id']}}>Edit</a></td>
-                
+
+ <td><a class= "btn btn-primary" href={{"delete/".$d['id']}}>Delete</a></td>
+ <td><a class= "btn btn-danger" href={{"edit/".$d['id']}}>Edit</a></td>
+
             </tr>
             <style>
                         body {
@@ -50,7 +50,7 @@
                         height: 20vh;
                         }
                         </style>
-            
+
  @endforeach
  </tbody>
 </table>
@@ -58,4 +58,4 @@
 </div>
 </div>
 
-</html>              
+</html>

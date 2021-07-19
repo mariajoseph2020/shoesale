@@ -43,7 +43,7 @@
 @endsection
 <style>
    body {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi7eGBAQ43QQclwBecwgsCtRQ5edVM9qdL_w&usqp=CAU');
+  background-image: url('https://media.istockphoto.com/photos/abstract-blurred-blue-background-with-double-exposure-of-bokeh-circle-picture-id1153938533?k=6&m=1153938533&s=612x612&w=0&h=QZDZDRy-aPOzITXqe5BwvoLckHf__Pb0UOCMU-_VIpw=');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

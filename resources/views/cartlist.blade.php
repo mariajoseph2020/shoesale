@@ -27,4 +27,13 @@
           <a class="btn btn-success" href="ordernow">Order Now</a> <br> <br>
           </div>
 </div>
-@endsection 
+@endsection
+<style>
+   body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuzQeFsyvXWNrVAcNFumA8LTuKuk0oTStH4KVVYt91mcYEkqp2uXRHpoBJ4ARugdWnIrU&usqp=CAU');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 10vh;
+}
+       </style>

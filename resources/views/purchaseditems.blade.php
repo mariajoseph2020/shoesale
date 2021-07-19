@@ -27,10 +27,11 @@
 </head>
  <div class="container" style="margin-left: 40px;">
         <div class="row">
-            <h3 class="display-4 text-danger">purchased items details</h3>
+        <h1><centre><div class="p-3 mb-2 text-black ">PURCHASED ITEMS DETAILS</div></centre></h1>
+
             <div class="col-md-12">
 <table class="table  table-striped table-responsive table-right">
-<thead class="thead-dark">
+<h1><thead class="thead-dark">
  <tr class="dark">
  <th scope="col">id</th>
  <th scope="col">product_id</th>
@@ -49,7 +50,7 @@
  <th scope="col">gallery</th>
  </tr>
  </thead>
-<tbody>
+<tbody></h1>
 @foreach($data as $d)
  <tr>
  <td>{{$d->id}}</td>
@@ -67,8 +68,8 @@
  <td>{{$d->brand}}</td>
  <td>{{$d->quantity}}</td>
  <td><img src={{$d->gallery}}/> </td>
- 
-       
+
+
 @endforeach
 </tbody>
 </table>
@@ -77,3 +78,12 @@
 </div>
 
 </html>
+ <style>
+        body {
+        background-image: url('https://files.123freevectors.com/wp-content/original/117151-abstract-light-blue-bokeh-lights-background-vector.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 20vh;
+                    }
+</style>
